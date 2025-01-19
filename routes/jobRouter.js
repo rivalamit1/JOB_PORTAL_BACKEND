@@ -11,7 +11,7 @@ router.delete("/delete/:id", isAuthenticated, isAuthorized("Employer"), deleteJo
 router.get("/get/:id", getASingleJob)
 
 
-
+ 
 
 
 
