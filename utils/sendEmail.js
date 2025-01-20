@@ -16,7 +16,7 @@ export const sendEmail = async ({ email, subject, message }) => {
     to: email,
     subject: subject,
     text: message,
-  };
+  }; 
 
   await transporter.sendMail(options);
 };
