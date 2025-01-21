@@ -2,7 +2,7 @@ import { catchAsyncErrors } from "./catchAsyncErrors.js";
 import ErrorHandler from "./error.js";
 import jwt from "jsonwebtoken";
 import { User } from "../models/userSchema.js";
-
+ 
 export const isAuthenticated = catchAsyncErrors(async (req, res, next) => {
   const { token } = req.cookies;
   if (!token) {
