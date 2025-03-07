@@ -8,7 +8,7 @@ export const postJob = catchAsyncErrors(async (req, res, next) => {
     jobType,
     location,
     companyName,
-    introduction,  
+    introduction,   
     responsibilities,  
     qualifications,
     offers,
