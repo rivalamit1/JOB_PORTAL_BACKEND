@@ -1,4 +1,4 @@
- import { catchAsyncErrors } from "../middlewares/catchAsyncErrors.js";
+  import { catchAsyncErrors } from "../middlewares/catchAsyncErrors.js";
 import ErrorHandler from "../middlewares/error.js";
 import { Job } from "../models/jobSchema.js";
 
