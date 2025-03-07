@@ -3,7 +3,7 @@ import ErrorHandler from "../middlewares/error.js";
 import { Job } from "../models/jobSchema.js";
 
 export const postJob = catchAsyncErrors(async (req, res, next) => {
-  const {
+  const { 
     title,
     jobType,
     location,
